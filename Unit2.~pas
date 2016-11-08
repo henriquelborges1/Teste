@@ -4,11 +4,10 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs;
 
 type
   TForm2 = class(TForm)
-    Label1: TLabel;
   private
     { Private declarations }
   public
@@ -23,3 +22,4 @@ implementation
 {$R *.dfm}
 
 end.
+ 
